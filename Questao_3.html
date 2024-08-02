@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Questão 3</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="./Questao_3.js" defer></script>
+</head>
+
+<body>
+  <h1 class="page_title">
+    Questão 03
+  </h1>
+  <p id='info_text'>Informe os dados do aluno <span id="num_aluno"></span></p>
+  <div id='form_aluno'>
+    <label for="nome_aluno">Nome: </label>
+    <input type="text" name="nome_aluno" min="0" max="10"/><br>
+    <label for="primeira_nota">Primeira Nota: </label>
+    <input type="number" name="primeira_nota" min="0" max="10"/><br>
+    <label for="segunda_nota">Segunda Nota: </label>
+    <input type="number" name="segunda_nota" min="0" max="10"/><br>
+  </div>
+  <button id="send_button" onclick="onButtonClick()">Cadastrar Aluno</button>
+  <br>
+  <div id="lista_alunos"></div>
+</body>
+  <a class="return_button" href="./index.html">Voltar</a>
+</html>
